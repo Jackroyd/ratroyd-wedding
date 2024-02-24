@@ -10,7 +10,10 @@ const Gifts = () => {
   return (
   <Section sectionId={'gifts'} backgroundColor={"off_white"} padding={{base: "3rem 0", md: "5rem 0"}}>
     <SectionContainer xMargin={{base: '1rem', md: '10rem', lg: '12rem', xl: '26rem'}}>
-        <Stack spacing={"1rem"} align={'center'} maxWidth={'90vw'}>
+        <Stack spacing={"1rem"} align={'center'}
+          width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
+          minWidth={'30vw'}
+          maxWidth={'90vw'}>
             <Heading fontFamily={"heading_shadow"} fontSize={{base: "6rem", md: "6rem", lg: "8rem", xl: '13rem'}} color={'dark_green'} textAlign={'center'}>GIFTS</Heading>
             <Image src={gifts} flexBasis={'0'} maxW={{base: '18rem', md: '22rem', lg: '30rem', xl: '40rem'}} objectFit={'cover'}/>
         </Stack>

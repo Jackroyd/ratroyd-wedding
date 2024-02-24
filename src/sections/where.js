@@ -11,7 +11,11 @@ const Where = () => {
   return (
   <Section sectionId={'where'} backgroundColor={"light_green"} padding={{base: "3rem 0", md: "5rem 0"}}>
     <SectionContainer xMargin={{base: '1rem', md: '10rem', lg: '12rem', xl: '26rem'}}>
-        <Stack spacing={"1rem"}>
+        <Stack spacing={"1rem"} 
+          width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
+          minWidth={'30vw'}
+          maxWidth={'90vw'}
+          align={'center'}>
             <Heading fontFamily={"heading_shadow"} fontSize={{base: "6rem", md: "8rem", lg: "10rem", xl: '14rem'}} color={'dark_green'} textAlign={'center'}>WHERE</Heading>
             <Image src={ashMap} flexBasis={'0'} maxW={{base: '18rem', md: '22rem', lg: '30rem', xl: '40rem'}} objectFit={'cover'}/>
         </Stack>

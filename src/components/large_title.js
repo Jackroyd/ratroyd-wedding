@@ -7,6 +7,9 @@ const LargeTitle = ({ textSize, jMargin, pMargin, lMargin }) => {
       direction={'column'}
       align={'center'}
       justifyContent={'center'}
+      width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
+      minWidth={'30vw'}
+      maxWidth={'90vw'}
       >
       <Heading 
         fontFamily={"heading_shadow"} fontSize={textSize} color={'off_white'}

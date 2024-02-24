@@ -8,6 +8,8 @@ import Accommodation from './sections/accomodation';
 import TheDay from './sections/the_day';
 import Rsvp from './sections/rsvp';
 import Gifts from './sections/gifts';
+import Contact from './sections/contact';
+import Thanks from './sections/thanks';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <TheDay />
       <Rsvp />
       <Gifts />
+      <Contact />
+      <Thanks />
     </div>
   );
 }

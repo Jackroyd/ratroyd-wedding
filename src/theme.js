@@ -42,8 +42,12 @@ const customTheme = extendTheme({
             boxShadow: '4px 4px 0 0 #FAF5DF',
             transform: 'translate(-2px, -2px)',          
           },
-
         },
+      },
+    },
+    Link: {
+      baseStyle: {
+        cursor: 'pointer',
       },
     },
   }
