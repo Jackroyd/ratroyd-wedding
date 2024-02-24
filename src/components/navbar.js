@@ -1,6 +1,6 @@
 import React from 'react';
 import brLogo from '../assets/images/brlogo.png';
-import { Flex, Box, Image } from '@chakra-ui/react';
+import { Flex, Box, Image, Link } from '@chakra-ui/react';
 
 const Navbar = ({ display }) => {
   const [lastScrollY, setLastScrollY] = React.useState(0);
@@ -55,12 +55,14 @@ const Navbar = ({ display }) => {
         transitionTimingFunction: 'ease-in-out'
       }}
     >
-      <Box as="a" href="#where" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'off_white'}} >WHERE</Box>
-      <Box as="a" href="#where" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'off_white'}} >ACCOMMODATION</Box>
-      <Image src={brLogo} width={{base: '8rem', md: '9rem', lg: '10rem'}} objectFit={'contain'} transform="translateY(1rem)"/>
-      <Box as="a" href="#where" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'off_white'}} fontFamily="heading_filled" >RSVP</Box>
-      <Box as="a" href="#where" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'off_white'}} >GIFTS</Box>
-      <Box as="a" href="#where" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'off_white'}} >CONTACT</Box>
+      <Box as="a" href="#where" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >WHERE</Box>
+      <Box as="a" href="#accomodation" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >ACCOMMODATION</Box>
+      <Link href="#home">
+        <Image src={brLogo} width={{base: '8rem', md: '9rem', lg: '10rem'}} objectFit={'contain'} transform="translateY(1rem)"/>
+      </Link> 
+      <Box as="a" href="#rsvp" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} fontFamily="heading_filled" >RSVP</Box>
+      <Box as="a" href="#gifts" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >GIFTS</Box>
+      <Box as="a" href="#contact" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >CONTACT</Box>
     </Flex>
   );
 };

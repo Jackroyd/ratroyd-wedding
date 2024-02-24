@@ -8,7 +8,7 @@ import { Button, Flex, Heading, Spacer } from '@chakra-ui/react';
 const Hero = () => {
   const marginY = {base: '0.5rem', md: '0.75rem', lg: '1rem'};
   return (
-  <Section backgroundColor={"dark_green"} padding={{base: "10rem 0 0 0", md: "11rem 0 0 0"}}>
+  <Section sectionId={'home'} backgroundColor={"dark_green"} padding={{base: "10rem 0 0 0", md: "11rem 0 0 0"}}>
     <SectionContainer xMargin={{base: '1rem', md: '12rem', lg: '18rem', xl: '28rem'}}>
         <LargeTitle 
           textSize={{base: '8rem', md: '12rem', lg: '14rem', xl: '18rem'}} 

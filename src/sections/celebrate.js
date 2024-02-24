@@ -17,6 +17,11 @@ const Celebrate = () => {
         direction={'column'}
         align={'center'}
         justifyContent={'center'}
+        color={'dark_green'}
+        width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
+        minWidth={'30vw'}
+        maxWidth={'90vw'}
+        spacing={'1rem'}
         whiteSpace={'nowrap'}
         >
           <Heading fontFamily={"heading_shadow"} fontSize={{base: "4rem", md: "5rem", lg: "6rem", xl: "8rem"}} color={'dark_green'} marginY={marginY} textAlign={'center'}>let's<br></br>celebrate</Heading>

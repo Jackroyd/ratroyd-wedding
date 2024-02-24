@@ -21,11 +21,11 @@ const NavbarMobile = ({ display }) => {
             <DrawerCloseButton />
             <DrawerBody>
               <Stack spacing="1rem" direction="column" align="center" justify="center" color={'dark_green'} fontFamily="heading_shadow" fontSize={'3rem'}>
-                <Box as="a" href="#where" borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'dark_green'}} >WHERE</Box>
-                <Box as="a" href="#where" borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'dark_green'}} >ACCOMMODATION</Box>
-                <Box as="a" href="#where" borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'dark_green'}} fontFamily="heading_filled">RSVP</Box>
-                <Box as="a" href="#where" borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'dark_green'}} >GIFTS</Box>
-                <Box as="a" href="#where" borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'dark_green'}} >CONTACT</Box>
+                <Box as="a" href="#where" borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >WHERE</Box>
+                <Box as="a" href="#accomodation" borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >ACCOMMODATION</Box>
+                <Box as="a" href="#rsvp" borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} fontFamily="heading_filled">RSVP</Box>
+                <Box as="a" href="#gifts" borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >GIFTS</Box>
+                <Box as="a" href="#contact" borderBottom="1px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >CONTACT</Box>
               </Stack>
             </DrawerBody>
           </DrawerContent>
