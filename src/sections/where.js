@@ -33,7 +33,7 @@ const Where = () => {
         >
           <Text fontFamily={"main_text"} fontSize={mainTextSize} marginTop={{base: '1rem', lg: '0'}}>It's all happening on an estate in North Devon, 
           close to the sea side.</Text>
-          <Flex align={'center'} maxWidth={'90vw'}>
+          <Flex align={'center'} maxWidth={'100%'} >
             <Box width={{base: '20rem', md: '22rem', lg:'26rem'}}>
               <Text fontFamily={'heading_filled'} fontSize={{base: '3rem', md: '4rem'}}>ADDRESS</Text>
               <Text fontFamily={'main_text'} fontSize={mainTextSize} lineHeight={'2rem'}>Ash Barton Estate <br/>
@@ -42,7 +42,7 @@ const Where = () => {
                     EX33 2NP</Text>
             </Box>
             <Link href='https://maps.app.goo.gl/m8aPb1kvRoFSfMxW7' target='_blank'>
-              <Button variant='main' lineHeight={{base: "2.25rem", md: "3rem", lg: "3rem", xl: '4rem'}} fontSize={{base: "2.25rem", md: "3rem", lg: "3rem", xl: '4rem'}} padding={{base:'4rem 1rem', xl:'4rem 2rem'}} maxWidth={{base: "12rem", md: "12rem", xl: "16rem"}} whiteSpace={'normal'}>SEE ON MAPS</Button>
+              <Button variant='main' lineHeight={{base: "2.25rem", md: "3rem", lg: "3rem", xl: '4rem'}} fontSize={{base: "2.25rem", md: "2.25rem", lg: "2.5rem", xl: '3rem'}} padding={{base:'4rem 1rem', xl:'4rem 2rem'}} maxWidth={{base: "12rem", md: "14rem", xl: "18rem"}} whiteSpace={'normal'}>SEE ON MAPS</Button>
             </Link>
           </Flex>
           <Text fontFamily={'heading_filled'} fontSize={{base: '3rem', md: '4rem'}}>GETTING HERE</Text>

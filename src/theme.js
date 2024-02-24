@@ -12,7 +12,7 @@ const customTheme = extendTheme({
     dark_green: '#197B46',
     light_green: '#9BD299',
     off_white: '#FAF5DF',
-    yellowish: '#F6D75B',
+    yellowish: '#E3B23C',
   },
   fonts: {
     heading_shadow: 'Londrina Shadow, cursive',

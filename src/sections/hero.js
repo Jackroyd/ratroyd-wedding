@@ -27,13 +27,13 @@ const Hero = () => {
           minWidth={'30vw'}
           maxWidth={'90vw'}
         >
-          <Heading fontFamily={"fancy"} fontSize={{base: "2rem", md: "2.5rem", lg: "3rem", xl: '4.5rem'}} color={'off_white'} marginY={marginY}>are getting married</Heading>
-          <Heading fontFamily={"heading_shadow"} fontSize={{base: "2rem", md: "2.5rem", lg: "3rem", xl: '4.5rem'}} color={'off_white'} marginY={marginY}>Saturday</Heading>
-          <Heading fontFamily={"heading_shadow"} fontSize={{base: "2.5rem", md: "3rem", lg: "3.5rem", xl: '5rem'}} color={'off_white'} marginY={marginY}>12th October 2024</Heading>
+          <Heading fontFamily={"fancy"} fontSize={{base: "2rem", md: "2.5rem", lg: "3rem", xl: '4.5rem'}} color={'off_white'} marginY={marginY} maxW={'100%'}>are getting married</Heading>
+          <Heading fontFamily={"heading_shadow"} fontSize={{base: "2rem", md: "2.5rem", lg: "3rem", xl: '4.5rem'}} color={'off_white'} marginY={marginY} maxW={'100%'}>Saturday</Heading>
+          <Heading fontFamily={"heading_shadow"} fontSize={{base: "2.5rem", md: "3rem", lg: "3.5rem", xl: '5rem'}} color={'off_white'} marginY={marginY} maxW={'100%'}>12th October 2024</Heading>
           <Link href='#rsvp'>
             <Button variant='main' fontSize={{base: "2.5rem", md: "3rem", lg: "3.5rem", xl: '5rem'}} width={'12rem'} marginY={marginY}>RSVP</Button>
           </Link>
-          <Heading fontFamily={"fancy"} fontSize={{base: "2rem", md: "2.5rem", lg: "3rem", xl: '4.5rem'}} color={'off_white'} marginY={marginY}>by 31st March</Heading>
+          <Heading fontFamily={"fancy"} fontSize={{base: "2rem", md: "2.5rem", lg: "3rem", xl: '4.5rem'}} color={'off_white'} marginY={marginY} maxW={'100%'}>by 31st March</Heading>
         </Flex>
     </SectionContainer>
   </Section>
