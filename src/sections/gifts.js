@@ -15,7 +15,7 @@ const Gifts = () => {
           minWidth={'30vw'}
           maxWidth={'90vw'}>
             <Heading fontFamily={"heading_shadow"} fontSize={{base: "6rem", md: "6rem", lg: "8rem", xl: '13rem'}} color={'dark_green'} textAlign={'center'}>GIFTS</Heading>
-            <Image src={gifts} flexBasis={'0'} maxW={{base: '18rem', md: '22rem', lg: '30rem', xl: '40rem'}} objectFit={'cover'}/>
+            <Image src={gifts} flexBasis={'0'} maxW={{base: '18rem', md: '22rem', lg: '30rem', xl: '40rem'}} objectFit={'cover'} opacity={'0.8'}/>
         </Stack>
         <Spacer/>
         <Flex
@@ -26,14 +26,15 @@ const Gifts = () => {
         color={'dark_green'}
         width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
         minWidth={'30vw'}
-        maxWidth={'90vw'}
+        maxWidth={'80vw'}
         spacing={'1rem'}
         >
           <Text w='100%' fontFamily={"main_text"} fontSize={mainTextSize} marginTop={{base: '1rem', lg: '0'}}>
             Your presence alone will make us more than happy. 
             <br/>
             <br/>
-            However, if you're determined to give something, we have a collection pot you can add to.
+            However, if you're determined to give something, we have a <Link textDecoration={'underline'} textDecorationColor={'yellowish'} href='https://app.collectionpot.com/pot/3205125'>collection pot you can add to</Link>
+            - or contact us directly for bank details.
             <br/>
             <br/>
             The money will be split equally between: 

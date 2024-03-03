@@ -26,7 +26,7 @@ const Where = () => {
         align={{base: 'center', md: 'flex-start', lg: 'flex-start'}}
         justifyContent={'center'}
         color={'dark_green'}
-        maxWidth={'90vw'}
+        maxWidth={'80vw'}
         minWidth={'30vw'}
         width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
         spacing={'1rem'}

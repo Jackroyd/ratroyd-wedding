@@ -29,7 +29,7 @@ const customTheme = extendTheme({
     Button: {
       variants: {
         main: {
-          padding: '2rem',
+          paddingY: '2.5rem',
           fontFamily: 'heading_filled',
           color: 'off_white',
           bg: 'none',

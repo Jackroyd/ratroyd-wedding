@@ -6,6 +6,7 @@ import dayImg from '../assets/images/day.png';
 
 
 const TheDay = () => {
+  const fontWeight = {fontWeight: 'bold'};
   const mainTextSize = {base: "1.25rem", md: "1.25rem", lg: "1.5rem", xl: '2rem'};
   return (
   <Section sectionId={'day'} backgroundColor={"light_green"} padding={{base: "3rem 0", md: "5rem 0"}}>
@@ -13,7 +14,7 @@ const TheDay = () => {
         <Stack spacing={"1rem"} align={'center'}
           width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
           minWidth={'30vw'}
-          maxWidth={'90vw'}>
+          maxWidth={'80vw'}>
             <Heading fontFamily={"heading_shadow"} fontSize={{base: "6rem", md: "6rem", lg: "8rem", xl: '13rem'}} color={'dark_green'} textAlign={'center'} lineHeight={{base: "6rem", md: "6rem", lg: "8rem", xl: '13rem'}}>ON THE DAY</Heading>
             <Image src={dayImg} flexBasis={'0'} maxW={{base: '18rem', md: '22rem', lg: '30rem', xl: '40rem'}} objectFit={'cover'}/>
         </Stack>
@@ -24,18 +25,19 @@ const TheDay = () => {
         align={{base: 'center', md: 'flex-start', lg: 'flex-start'}}
         justifyContent={'center'}
         color={'dark_green'}
-        maxWidth={'90vw'}
+        maxWidth={'80vw'}
         minWidth={'30vw'}
         width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
         spacing={'1rem'}
         >
           <Text fontFamily={"main_text"} fontSize={mainTextSize} marginTop={{base: '1rem', lg: '0'}}>
-            There will be plenty of food, music and dancing
+            The ceremony kicks off at <span style={fontWeight}>12.30pm</span>, followed by plenty of food, music and dancing until the early hours.
           </Text>
-          <Text fontFamily={'heading_filled'} fontSize={{base: '3rem', md: '4rem'}}>DRESS CODE</Text>
+          <Text fontFamily={'heading_filled'} fontSize={{base: '3rem', md: '4rem'}}>WHAT TO WEAR</Text>
           <Text fontFamily={"main_text"} fontSize={mainTextSize} marginTop={{base: '1rem', lg: '0'}}>
-            Wear what makes you feel in the mood to celebrate and boogie.
-            A word of warning on shoes - there are areas with cobbled stones, so might be a bit slippery/tricky in thin high heels.
+            We're not too fussy about what you wear, but we'd love it if you could join us in something that makes you feel fabulous, whether that's a suit, a dress, or something else entirely.
+            <br/>
+            Make sure you're comfy and ready to dance!
           </Text>
           <Text fontFamily={'heading_filled'} fontSize={{base: '3rem', md: '4rem'}}>FOOD AND DRINK</Text>
           <Text fontFamily={"main_text"} fontSize={mainTextSize} marginTop={{base: '1rem', lg: '0'}}>

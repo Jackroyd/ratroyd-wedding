@@ -1,5 +1,5 @@
 import React from 'react';
-import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, ListItem, Text, UnorderedList } from '@chakra-ui/react';
+import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPanel, ListItem, Text, UnorderedList, Link } from '@chakra-ui/react';
 
 const AccommodationAccordian = ({titleTextSize, mainTextSize}) => {
   return (
@@ -12,7 +12,7 @@ const AccommodationAccordian = ({titleTextSize, mainTextSize}) => {
         <AccordionPanel>
           <Text fontFamily={'main_text'} fontSize={mainTextSize} padding={'0 0 1rem 2rem'}>
           The manor house has lots of space if you want somewhere to crash. There are sofas and areas for makeshift beds. 
-          Remember to bring a sleeping bag and blow up bed if you need it!
+          Remember to bring a sleeping bag and blow up bed if you need it! All the proper beds in the house have already been allocated to close friends and family.
           </Text>
         </AccordionPanel>
       </AccordionItem>
@@ -35,7 +35,7 @@ const AccommodationAccordian = ({titleTextSize, mainTextSize}) => {
         </AccordionButton>
         <AccordionPanel>
           <Text fontFamily={'main_text'} fontSize={mainTextSize} padding={'0 0 1rem 2rem'}>
-            For a bit more comfort, you can hire a yurt from Fri-Mon (3 nights) on the estate:
+            For a bit more comfort, you can <Link textDecoration={'underline'} textDecorationColor={'yellowish'} href='https://www.nativebelltents.co.uk/prices-1'>hire a yurt</Link> from Fri-Mon (3 nights) on the estate:
           </Text>
           <UnorderedList fontFamily={'main_text'} fontSize={mainTextSize} padding={'0 0 1rem 2rem'}>
             <ListItem>2-3 people: £200</ListItem>

@@ -11,9 +11,9 @@ const Celebrate = () => {
   <Section backgroundColor={"off_white"} padding={{base: "3rem 0", md: "5rem 0"}}>
     <SectionContainer xMargin={{base: '1rem', md: '12rem', lg: '18rem', xl: '28rem'}}>
         <Image src={dayone} flexBasis={'0'} objectFit={'cover'}
-          width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
+          width={{base: '18rem', md: '32rem', lg: '36rem', xl: '40rem'}}
           minWidth={'30vw'}
-          maxWidth={'90vw'}
+          maxWidth={'80vw'}
         />
         <Spacer/>
         <Flex

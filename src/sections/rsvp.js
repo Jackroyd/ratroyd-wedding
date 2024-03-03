@@ -20,7 +20,7 @@ const Rsvp = () => {
         marginTop={{base: '2rem', md: '0'}}
         width={{base: '32rem', md: '32rem', lg: '36rem', xl: '40rem'}}
         minWidth={'30vw'}
-        maxWidth={'90vw'}
+        maxWidth={'80vw'}
         height={'90vh'}
         >
         <iframe 

@@ -12,7 +12,7 @@ const Thanks = () => {
       <Stack spacing={"1rem"} align={'center'}
           width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
           minWidth={'30vw'}
-          maxWidth={'90vw'}
+          maxWidth={'80vw'}
           textAlign={'center'}>
           <Heading fontFamily={"heading_shadow"} fontSize={{base: "6rem", md: "6rem", lg: "8rem", xl: '13rem'}} color={'off_white'} textAlign={'center'}>Thanks!</Heading>
           <Heading fontFamily={"fancy"} fontSize={{base: "2rem", md: "3rem", lg: "4rem", xl:'6rem'}} color={'off_white'}>love,<br/>Josh & Lydia</Heading>

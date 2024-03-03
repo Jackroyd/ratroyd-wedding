@@ -24,7 +24,7 @@ const Contact = () => {
         color={'dark_green'}
         width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
         minWidth={'30vw'}
-        maxWidth={'90vw'}
+        maxWidth={'80vw'}
         spacing={'1rem'}
         >
           <Text fontFamily={"main_text"} fontSize={mainTextSize} marginTop={{base: '1rem', lg: '0'}}>

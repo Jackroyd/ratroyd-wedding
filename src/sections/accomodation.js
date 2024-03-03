@@ -12,7 +12,7 @@ const Accommodation = () => {
   <Section sectionId={'accomodation'} backgroundColor={"off_white"} padding={{base: "3rem 0", md: "5rem 0"}}>
     <SectionContainer xMargin={{base: '1rem', md: '10rem', lg: '12rem', xl: '26rem'}}>
         <Stack spacing={"1rem"} align={'center'}
-        maxWidth={'90vw'}
+        maxWidth={'80vw'}
         minWidth={'30vw'}
         width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
         >
@@ -30,7 +30,7 @@ const Accommodation = () => {
         align={{base: 'center', md: 'flex-start', lg: 'flex-start'}}
         justifyContent={'center'}
         color={'dark_green'}
-        maxWidth={'90vw'}
+        maxWidth={'80vw'}
         minWidth={'30vw'}
         width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
         spacing={'1rem'}
