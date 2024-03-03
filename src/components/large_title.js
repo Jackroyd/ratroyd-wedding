@@ -9,6 +9,7 @@ const LargeTitle = ({ textSize, jMargin, pMargin, lMargin }) => {
       justifyContent={'center'}
       minWidth={'30vw'}
       maxWidth={'90vw'}
+      marginTop={{base: '1rem', md:'0rem'}}
       >
       <Heading 
         fontFamily={"heading_shadow"} fontSize={textSize} color={'off_white'}

@@ -4,7 +4,7 @@ import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPane
 const AccommodationAccordian = ({titleTextSize, mainTextSize}) => {
   return (
     <Accordion width={'100%'}>
-      <AccordionItem borderTop={'solid 1px'} borderColor={'yellowish'}>
+      <AccordionItem borderTop={'solid 2px'} borderColor={'yellowish'}>
         <AccordionButton>
           <Text fontFamily={'heading_filled'} fontSize={titleTextSize}>Manor house</Text>
           <AccordionIcon />
@@ -16,7 +16,7 @@ const AccommodationAccordian = ({titleTextSize, mainTextSize}) => {
           </Text>
         </AccordionPanel>
       </AccordionItem>
-      <AccordionItem borderTop={'solid 1px'} borderColor={'yellowish'}>
+      <AccordionItem borderTop={'solid 2px'} borderColor={'yellowish'}>
       <AccordionButton>
       <Text fontFamily={'heading_filled'} fontSize={titleTextSize}>Camping</Text>
           <AccordionIcon />
@@ -28,7 +28,7 @@ const AccommodationAccordian = ({titleTextSize, mainTextSize}) => {
           </Text>
         </AccordionPanel>
       </AccordionItem>
-      <AccordionItem borderTop={'solid 1px'} borderColor={'yellowish'}>
+      <AccordionItem borderTop={'solid 2px'} borderColor={'yellowish'}>
       <AccordionButton>
       <Text fontFamily={'heading_filled'} fontSize={titleTextSize}>Glamping</Text>
           <AccordionIcon />
@@ -48,7 +48,7 @@ const AccommodationAccordian = ({titleTextSize, mainTextSize}) => {
           </Text>
         </AccordionPanel>
       </AccordionItem>
-      <AccordionItem borderY={'solid 1px'} borderColor={'yellowish'}>
+      <AccordionItem borderY={'solid 2px'} borderColor={'yellowish'}>
       <AccordionButton>
       <Text fontFamily={'heading_filled'} fontSize={titleTextSize}>Book your own</Text>
           <AccordionIcon />

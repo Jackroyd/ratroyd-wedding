@@ -2,7 +2,7 @@ import React from 'react';
 import SectionContainer from '../components/section_container';
 import Section from '../components/section';
 import { Flex, Heading, Image, Stack, Text, Spacer } from '@chakra-ui/react';
-import ashMap from '../assets/images/ash-barton-map.png';
+import dayImg from '../assets/images/day.png';
 
 
 const TheDay = () => {
@@ -14,8 +14,8 @@ const TheDay = () => {
           width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
           minWidth={'30vw'}
           maxWidth={'90vw'}>
-            <Heading fontFamily={"heading_shadow"} fontSize={{base: "6rem", md: "6rem", lg: "8rem", xl: '13rem'}} color={'dark_green'} textAlign={'center'}>ON THE DAY</Heading>
-            <Image src={ashMap} flexBasis={'0'} maxW={{base: '18rem', md: '22rem', lg: '30rem', xl: '40rem'}} objectFit={'cover'}/>
+            <Heading fontFamily={"heading_shadow"} fontSize={{base: "6rem", md: "6rem", lg: "8rem", xl: '13rem'}} color={'dark_green'} textAlign={'center'} lineHeight={{base: "6rem", md: "6rem", lg: "8rem", xl: '13rem'}}>ON THE DAY</Heading>
+            <Image src={dayImg} flexBasis={'0'} maxW={{base: '18rem', md: '22rem', lg: '30rem', xl: '40rem'}} objectFit={'cover'}/>
         </Stack>
         <Spacer/>
         <Flex

@@ -18,8 +18,8 @@ const Accommodation = () => {
         >
             <Heading fontFamily={"heading_shadow"} fontSize={{base: "3.5rem", md: "4rem", lg: "5rem", xl: '10rem'}} color={'dark_green'} textAlign={'center'}>ACCOMMODATION</Heading>
             <Image src={bath} flexBasis={'0'} maxW={{base: '18rem', md: '22rem', lg: '30rem', xl: '40rem'}} objectFit={'cover'}/>
-            <Text fontFamily={"main_text"} fontSize={mainTextSize} textAlign={'left'} color={'dark_green'}>
-            If you're staying on the estate (manor house , camping, glamping) you're welcome to arrive from 9pm Friday and stay until Monday morning. 
+            <Text fontFamily={"main_text"} fontSize={mainTextSize} textAlign={'left'} color={'dark_green'} marginTop={{base: '1rem'}}>
+            If you're staying on the estate (manor house, camping, glamping) you're welcome to arrive from 9pm Friday and stay until Monday morning. 
             Just bare in mind it might be a little busy getting ready in the house on the Saturday morning. 
             </Text>
         </Stack>

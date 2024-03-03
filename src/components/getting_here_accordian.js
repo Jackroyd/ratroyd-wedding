@@ -4,7 +4,7 @@ import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPane
 const GettingHereAccordian = ({titleTextSize, mainTextSize}) => {
   return (
     <Accordion width={'100%'}>
-      <AccordionItem borderTop={'solid 1px'} borderColor={'yellowish'}>
+      <AccordionItem borderTop={'solid 2px'} borderColor={'yellowish'}>
         <AccordionButton>
           <Text fontFamily={'heading_filled'} fontSize={titleTextSize}>By Car:</Text>
           <AccordionIcon />
@@ -17,7 +17,7 @@ const GettingHereAccordian = ({titleTextSize, mainTextSize}) => {
           </UnorderedList>
         </AccordionPanel>
       </AccordionItem>
-      <AccordionItem borderY={'solid 1px'} borderColor={'yellowish'}>
+      <AccordionItem borderY={'solid 2px'} borderColor={'yellowish'}>
       <AccordionButton>
       <Text fontFamily={'heading_filled'} fontSize={titleTextSize}>By Train:</Text>
           <AccordionIcon />
