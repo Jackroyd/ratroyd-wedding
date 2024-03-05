@@ -56,9 +56,9 @@ const Navbar = ({ display }) => {
     >
       {/* Left items */}
       <Flex justify="space-around" width="40%" minWidth="300px">
-        <Box as="a" href="#where" p="2" visibility={isVisible ? 'visible' : 'hidden'} _hover={{borderColor: 'yellowish'}}>WHERE</Box>
-        <Box as="a" href="#accomodation" p="2" visibility={isVisible ? 'visible' : 'hidden'} _hover={{borderColor: 'yellowish'}}>ACCOMMODATION</Box>
-        <Box as="a" href="#day" p="2" visibility={isVisible ? 'visible' : 'hidden'} _hover={{borderColor: 'yellowish'}}>DAY</Box>
+        <Box as="a" href="#where" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}}>WHERE</Box>
+        <Box as="a" href="#accomodation" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}}>ACCOMMODATION</Box>
+        <Box as="a" href="#day" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}}>DAY</Box>
       </Flex>
 
       {/* Center logo */}
@@ -68,9 +68,9 @@ const Navbar = ({ display }) => {
 
       {/* Right items */}
       <Flex justify="space-around" width="40%" minWidth="300px">
-        <Box as="a" href="#rsvp" p="2" visibility={isVisible ? 'visible' : 'hidden'} _hover={{borderColor: 'yellowish'}} fontFamily="heading_filled">RSVP</Box>
-        <Box as="a" href="#gifts" p="2" visibility={isVisible ? 'visible' : 'hidden'} _hover={{borderColor: 'yellowish'}}>GIFTS</Box>
-        <Box as="a" href="#contact" p="2" visibility={isVisible ? 'visible' : 'hidden'} _hover={{borderColor: 'yellowish'}}>CONTACT</Box>
+        <Box as="a" href="#rsvp" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} fontFamily="heading_filled">RSVP</Box>
+        <Box as="a" href="#gifts" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}}>GIFTS</Box>
+        <Box as="a" href="#contact" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}}>CONTACT</Box>
       </Flex>
     </Flex>
   );
