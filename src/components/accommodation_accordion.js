@@ -3,7 +3,7 @@ import { Accordion, AccordionButton, AccordionIcon, AccordionItem, AccordionPane
 
 const AccommodationAccordian = ({titleTextSize, mainTextSize}) => {
   return (
-    <Accordion width={'100%'}>
+    <Accordion width={'100%'} allowToggle>
       <AccordionItem borderTop={'solid 2px'} borderColor={'yellowish'}>
         <AccordionButton>
           <Text fontFamily={'heading_filled'} fontSize={titleTextSize}>Manor house</Text>
