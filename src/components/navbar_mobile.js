@@ -23,6 +23,7 @@ const NavbarMobile = ({ display }) => {
               <Stack spacing="1rem" direction="column" align="center" justify="center" color={'dark_green'} fontFamily="heading_shadow" fontSize={'3rem'}>
                 <Box as="a" href="#where" borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >WHERE</Box>
                 <Box as="a" href="#accomodation" borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >ACCOMMODATION</Box>
+                <Box as="a" href="#day" borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >ON THE DAY</Box>
                 <Box as="a" href="#rsvp" borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} fontFamily="heading_filled">RSVP</Box>
                 <Box as="a" href="#gifts" borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >GIFTS</Box>
                 <Box as="a" href="#contact" borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >CONTACT</Box>

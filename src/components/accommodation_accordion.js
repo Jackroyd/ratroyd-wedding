@@ -23,7 +23,7 @@ const AccommodationAccordian = ({titleTextSize, mainTextSize}) => {
         </AccordionButton>
         <AccordionPanel>
           <Text fontFamily={'main_text'} fontSize={mainTextSize} padding={'0 0 1rem 2rem'}>
-            For the oudoorsy ones, the estate has a large camping area for tents and camper vans.
+            For the outdoorsy ones, the estate has a large camping area for tents and camper vans.
             You'll find great facilities with high quality showers, toilets and an area to get ready. 
           </Text>
         </AccordionPanel>

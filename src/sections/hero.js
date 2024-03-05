@@ -27,11 +27,11 @@ const Hero = () => {
           maxWidth={'80vw'}
         >
           <Heading fontFamily={"fancy"} fontSize={{base: "2rem", md: "2.5rem", lg: "3rem", xl: '4.5rem'}} color={'off_white'} marginY={marginY} maxW={'100%'}>are getting married</Heading>
-          <Heading fontFamily={"main_text"} fontSize={{base: "2.5rem", md: "3rem", lg: "3.5rem", xl: '5rem'}} color={'off_white'} marginY={marginY} maxW={'100%'} lineHeight={{base: "2.5rem", md: "3rem", lg: "3.5rem", xl: '5rem'}}>Saturday <br/> 12th October 2024</Heading>
+          <Heading fontFamily={"heading_filled"} fontSize={{base: "2.5rem", md: "3rem", lg: "3.5rem", xl: '5rem'}} color={'light_green'} marginY={marginY} maxW={'100%'} lineHeight={{base: "2.5rem", md: "3rem", lg: "3.5rem", xl: '5rem'}}>Saturday <br/> 12th October 2024</Heading>
           <Link href='#rsvp'>
             <Button variant='main' fontSize={{base: "3rem", md: "3rem", lg: "3.5rem", xl: '5rem'}} width={{base: '10rem', md: '12rem'}} marginY={marginY}>RSVP</Button>
           </Link>
-          <Heading fontFamily={"fancy"} fontSize={{base: "2rem", md: "2.5rem", lg: "3rem", xl: '4.5rem'}} color={'off_white'} marginY={marginY} maxW={'100%'}>by 31st March</Heading>
+          <Heading fontFamily={"fancy"} fontSize={{base: "2rem", md: "2.5rem", lg: "3rem", xl: '4.5rem'}} color={'off_white'} marginY={marginY} maxW={'100%'}>by 30th April</Heading>
         </Stack>
     </SectionContainer>
   </Section>

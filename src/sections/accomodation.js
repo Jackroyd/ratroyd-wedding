@@ -16,11 +16,11 @@ const Accommodation = () => {
         minWidth={'30vw'}
         width={{base: '25rem', md: '32rem', lg: '36rem', xl: '40rem'}}
         >
-            <Heading fontFamily={"heading_shadow"} fontSize={{base: "3.5rem", md: "4rem", lg: "5rem", xl: '10rem'}} color={'dark_green'} textAlign={'center'}>ACCOMMODATION</Heading>
+            <Heading fontFamily={"heading_shadow"} fontSize={{base: "3.25rem", md: "3.75rem", lg: "4.75rem", xl: '9.75rem'}} color={'dark_green'} textAlign={'center'}>ACCOMMODATION</Heading>
             <Image src={bath} flexBasis={'0'} maxW={{base: '18rem', md: '22rem', lg: '30rem', xl: '40rem'}} objectFit={'cover'}/>
             <Text fontFamily={"main_text"} fontSize={mainTextSize} textAlign={'left'} color={'dark_green'} marginTop={{base: '1rem'}}>
             If you're staying on the estate (manor house, camping, glamping) you're welcome to arrive from 9pm Friday and stay until Monday morning. 
-            Just bare in mind it might be a little busy getting ready in the house on the Saturday morning. 
+            Just bear in mind it might be a little busy getting ready in the house on the Saturday morning. 
             </Text>
         </Stack>
         <Spacer/>

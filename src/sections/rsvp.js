@@ -13,7 +13,7 @@ const Rsvp = () => {
           minWidth={'30vw'}
           maxWidth={'90vw'}>
             <Heading fontFamily={"heading_shadow"} fontSize={{base: "6rem", md: "6rem", lg: "8rem", xl: '13rem'}} color={'off_white'} textAlign={'center'}>RSVP</Heading>
-            <Heading fontFamily={"fancy"} fontSize={{base: "2rem", md: "3rem", lg: "4rem", xl:'6rem'}} color={'off_white'}>by 31st March</Heading>
+            <Heading fontFamily={"fancy"} fontSize={{base: "2rem", md: "3rem", lg: "4rem", xl:'6rem'}} color={'off_white'}>by 30th April</Heading>
         </Stack>
         <Spacer/>
         <Box

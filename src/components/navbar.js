@@ -33,9 +33,8 @@ const Navbar = ({ display }) => {
       display={display}
       as="nav"
       align="center"
-      justify="space-between"
-      m="0 0"
-      padding="0 11.5rem"
+      justify="space-between" // Ensures the logo remains centered
+      padding="0 3.5rem"
       color="off_white"
       fontFamily="heading_shadow"
       fontSize={{base: '1.5rem', md: '2rem', lg: '2.5rem'}}
@@ -55,14 +54,24 @@ const Navbar = ({ display }) => {
         transitionTimingFunction: 'ease-in-out'
       }}
     >
-      <Box as="a" href="#where" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >WHERE</Box>
-      <Box as="a" href="#accomodation" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >ACCOMMODATION</Box>
-      <Link href="#home">
+      {/* Left items */}
+      <Flex justify="space-around" width="40%" minWidth="300px">
+        <Box as="a" href="#where" p="2" visibility={isVisible ? 'visible' : 'hidden'} _hover={{borderColor: 'yellowish'}}>WHERE</Box>
+        <Box as="a" href="#accomodation" p="2" visibility={isVisible ? 'visible' : 'hidden'} _hover={{borderColor: 'yellowish'}}>ACCOMMODATION</Box>
+        <Box as="a" href="#day" p="2" visibility={isVisible ? 'visible' : 'hidden'} _hover={{borderColor: 'yellowish'}}>DAY</Box>
+      </Flex>
+
+      {/* Center logo */}
+      <Link href="#home" alignSelf="center" justifySelf="center">
         <Image src={brLogo} width={{base: '8rem', md: '9rem', lg: '10rem'}} objectFit={'contain'} transform="translateY(1rem)"/>
-      </Link> 
-      <Box as="a" href="#rsvp" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} fontFamily="heading_filled" >RSVP</Box>
-      <Box as="a" href="#gifts" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >GIFTS</Box>
-      <Box as="a" href="#contact" p="2" pb="0" visibility={isVisible ? 'visible' : 'hidden'} borderBottom="2px" borderColor="transparent" _hover={{borderColor: 'yellowish'}} >CONTACT</Box>
+      </Link>
+
+      {/* Right items */}
+      <Flex justify="space-around" width="40%" minWidth="300px">
+        <Box as="a" href="#rsvp" p="2" visibility={isVisible ? 'visible' : 'hidden'} _hover={{borderColor: 'yellowish'}} fontFamily="heading_filled">RSVP</Box>
+        <Box as="a" href="#gifts" p="2" visibility={isVisible ? 'visible' : 'hidden'} _hover={{borderColor: 'yellowish'}}>GIFTS</Box>
+        <Box as="a" href="#contact" p="2" visibility={isVisible ? 'visible' : 'hidden'} _hover={{borderColor: 'yellowish'}}>CONTACT</Box>
+      </Flex>
     </Flex>
   );
 };

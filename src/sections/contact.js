@@ -28,7 +28,7 @@ const Contact = () => {
         spacing={'1rem'}
         >
           <Text fontFamily={"main_text"} fontSize={mainTextSize} marginTop={{base: '1rem', lg: '0'}}>
-            Please don't hesitate to get in touch. We'd be very happy to share any extra info or address any particular concerns.
+            Please don't hesitate to get in touch if you have any questions or have any concerns.
             <br/>
             <br/>
             Josh: 07930 294 864
