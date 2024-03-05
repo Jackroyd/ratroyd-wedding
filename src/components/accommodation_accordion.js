@@ -48,7 +48,7 @@ const AccommodationAccordian = ({titleTextSize, mainTextSize}) => {
           </Text>
         </AccordionPanel>
       </AccordionItem>
-      <AccordionItem borderY={'solid 2px'} borderColor={'yellowish'}>
+      <AccordionItem borderY={'solid 2px'} borderColor={'yellowish'} _last={{ borderBottom: '2px solid', borderColor: 'yellowish' }}>
       <AccordionButton>
       <Text fontFamily={'heading_filled'} fontSize={titleTextSize}>Book your own</Text>
           <AccordionIcon />
