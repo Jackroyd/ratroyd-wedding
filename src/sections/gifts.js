@@ -33,8 +33,7 @@ const Gifts = () => {
             Your presence alone will make us more than happy. 
             <br/>
             <br/>
-            However, if you'd like give something, we have a <Link textDecoration={'underline'} textDecorationColor={'yellowish'} href='https://app.collectionpot.com/pot/3205125' target='_blank'>collection pot you can add to</Link>
-            - or contact us directly for bank details.
+            However, if you'd like to give something, we have a <Link textDecoration={'underline'} textDecorationColor={'yellowish'} href='https://app.collectionpot.com/pot/3205125' target='_blank'>collection pot</Link> you can add to - or contact us directly for bank details.
             <br/>
             <br/>
             The money will be split equally between: 
